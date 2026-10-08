@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url('../imagens/fundo-rosa.jpg') no-repeat top center;
+    background: url('../imagens/fundo-bola.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -33,4 +33,33 @@ section#telefone {
     width: 318px;
     
     background: url('../imagens/frame-iphone.png') no-repeat;
+ }
+
+ iframe#tela {
+    position: relative;
+    top: 67px;
+    left: 18px;
+    width: 285px;
+    height: 497px;
+ }
+
+ #redes-sociais {
+    position: absolute;
+    right: 30px;
+    top: 35%;
+}
+
+ section#redes-sociais img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    box-sizing: border-box;
+ }
+
+ section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.733);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+    transition: transform 0.5s, border 1s;
  }
